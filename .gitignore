@@ -1,31 +1,31 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+.idea/
+**/.idea/
+classes/
+**/classes/
+.gradle/
+**/gradle/
 *.iml
+**/.iml
 *.ipr
+*.iws
+**/rebel*.xml
+*.classes
+*.class
+mvnw
+mvnw.cmd
+.mvn
+**/build
+/build/
+**/out/
+/out/
+/bower_components/
+/node_modules/
+**/bower_components/
+**/node_modules/
+logs/
+**/logs/
+**/target/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-
-### VS Code ###
-.vscode/
+.pid
+.DS_Store
+*.md
